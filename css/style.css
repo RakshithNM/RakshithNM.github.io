@@ -12,6 +12,7 @@
 .fa:focus{
 	color:#000000;
 }
+
 nav{
 	font-family: 'Poiret One';
 	font-size: 22px;
@@ -102,7 +103,7 @@ div.hr{
 	font-weight: bolder;
 	}
 .breadcrumb > li a{
-	color:#337ACE;
+	color:#dddddd;
 }
 .breadcrumb > li a:hover,
 .breadcrumb > li a:focus{
