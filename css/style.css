@@ -186,10 +186,6 @@ p {
 	.right-col-form{
 		margin-top: 40px;
 	}
-	.verticalLine {
-		display : none;
-	}
-
 }
 #submit{
 	border:1px solid #337ACE;
