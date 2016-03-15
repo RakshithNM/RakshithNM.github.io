@@ -186,6 +186,9 @@ p {
 	.right-col-form{
 		margin-top: 40px;
 	}
+	.verticalLine {
+		border-left: 2px solid #ffffff;
+	}
 }
 #submit{
 	border:1px solid #337ACE;
