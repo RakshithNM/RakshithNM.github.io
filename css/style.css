@@ -173,6 +173,7 @@ p {
 	.right-col{
 		position: inherit;
 		left:auto;
+		margin-top:40px;
 	}
 	.right-col-form{
 		margin-top: 40px;
