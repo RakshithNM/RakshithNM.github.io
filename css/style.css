@@ -90,7 +90,7 @@ div.hr{
 	font-family: cursive;
 	padding-top : 40px;
 	padding-bottom: 20px;
-	font-size: 17px;
+	font-size: 18px;
 }
 .breadcrumb{
 	font-family: 'Poiret One';
@@ -123,7 +123,7 @@ div i{
 	border-left: 2px solid #000000;
 	}
 #about-me{
-	font-size: 17px;
+	font-size: 19px;
 	font-family: 'FiraSans','Sans-Serif','Poiret One';
 	padding: 0% 5% 0% 5%;
 	color: black;
@@ -167,7 +167,7 @@ p {
 		font-size: 25px;
 	}
 	#tag-line{
-		font-size: 15px;
+		font-size: 16px;
 		margin-top: -20px;
 	}
 	div .hr{
