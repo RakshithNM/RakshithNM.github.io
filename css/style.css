@@ -139,9 +139,7 @@ p {
 		top:0%;
 		left:30%;
 		height: auto;
-	}
-	.row{
-		margin-left: 30px;
+		margin-left: 80px;
 	}
 	.right-col-form{
 		position:relative;
@@ -149,6 +147,7 @@ p {
 		left:30%;
 		height: auto;
 		margin-top: 100px;
+		margin-left: 80px;
 	}
 	.left-col{
 		position:fixed;
