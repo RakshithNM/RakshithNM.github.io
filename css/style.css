@@ -229,6 +229,9 @@ html, body{
 	height: 100%;
 	}
 #container{
+	width: 60%;
+	margin-left:auto;
+	margin-right:auto;
 	min-height: 100%;
 	margin-bottom: -100px;
 	position:relative;
@@ -269,8 +272,4 @@ a{
 #about-me{
 	font-family: 'Fira Sans';
 }
-.row{
-	width: 60%;
-	margin-left:auto;
-	margin-right:auto;
-}
+
