@@ -124,7 +124,7 @@ div i{
 	}
 #about-me{
 	font-size: 19px;
-	font-family: 'FiraSans','Sans-Serif','Poiret One';
+	font-family: 'FiraSans', sans-serif, Helvetica;
 	padding: 0% 5% 0% 5%;
 	color: black;
 }
@@ -268,13 +268,13 @@ a{
 	text-decoration: none!important;
 }
 #about-me p{
-	font-family: 'Fira Sans';
+	font-family: 'Fira Sans',sans-serif, Helvetica;
 }
 #about-me h3{
 	font-family: 'Poiret One';
 	margin-bottom: 20px;
 }
 #about-me{
-	font-family: 'Fira Sans';
+	font-family: 'Fira Sans',sans-serif, Helvetica;
 }
 
