@@ -280,4 +280,12 @@ a{
 /*#noun {
 	font-size: 17px;
 }*/
+#project-title
+{
+	font-size: 24px;
+	font-family: 'FiraSans', sans-serif, Helvetica;
+	padding: 0% 5% 0% 5%;
+	color: black;
+}
+
 
