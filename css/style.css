@@ -283,6 +283,9 @@ a{
 #conte {
 	font-size: 20px;
 }
+.margtop{
+	margin-top: 10px;
+}
 #project-title
 {
 	font-size: 24px;
