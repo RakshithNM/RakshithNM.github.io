@@ -1,3 +1,7 @@
+body,html 
+{
+  height: auto;
+}
 .grid{
   width: 511px; /* (50 * 10) + 11 */
   margin: 0 auto;  /*center the grid*/
@@ -38,17 +42,19 @@ h1{
   position: absolute;
   margin: 0px 15px 0px 15px;
   padding: 0px 10px 0px 10px;
-  top: 100%;
+  top: 104%;
   font-size: 20px;
-  height: auto;
+  display: block;
   font-family: Fira Sans;
+  left: 30%;
 }
 .text-space2{ /*formatting for the text space two*/
   position: absolute;
   margin: 0px 15px 0px 15px;
   padding: 0px 10px 0px 10px;
   font-size: 20px;
-  top: 175%;
+  top: 200%;
+   display: block;
   font-family: Fira Sans;
 }
 .foot-hr{
@@ -64,4 +70,4 @@ h1{
   position: absolute;
  /* top: 265%;*/
 }
-h4
+

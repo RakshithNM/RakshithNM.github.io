@@ -17,36 +17,8 @@
 		</div>
 
 		<div class = "text-space1">
-			<h2>Rules of the Game</h2>
-			<p>The space of interest is an infinite(circularly connected) two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, or "populated" or "unpopulated".
-
-			Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent.
-
-			At each step in time, the following transitions occur:</p>
-
-			<ol><li>Any live cell with fewer than two live neighbours dies, as if caused by under-population.</li>
-				<li>Any live cell with two or three live neighbours lives on to the next generation.</li>
-				<li>Any live cell with more than three live neighbours dies, as if by over-population.</li>
-				<li>Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.</li>
-				<li>The initial pattern constitutes the seed of the system(random alive cells).
-			</ol>
-
-			<p>The first generation is created by applying the above rules simultaneously to every cell in the seed—births and deaths occur simultaneously, and the discrete moment at which this happens is sometimes called a tick (in other words, each generation is a pure function of the preceding one).
-
-			The rules continue to be applied repeatedly to create further generations.</p>
-		</div>
-
-		<div class = "text-space2">
-			<h2>Features of the Game</h2>
-			<ul>
-				<li>It is a Zero player game.</li>
-				<li>Evolution is determined by its initial state requirring no further input.</li>
-				<li>Only interaction with the game is when creating the initial configuration(randomised).
-				From any random initial pattern of living cells on the grid, observers will find the population constantly changing as the generations tick by.</li>
-				<li>Small isolated subpatterns with no initial symmetry tend to become symmetrical. Once this happens, the symmetry may increase in richness, but it cannot be lost unless a nearby subpattern comes close enough to disturb it. In a very few cases the society eventually dies out, with all living cells vanishing, though this may not happen for a great many generations. Most initial patterns eventually "burn out", producing either stable figures or patterns that oscillate forever between two or more states.</li>
-				<li>Undecidability - Many patterns in the game of life eventually become a combination of still lives, oscillators and spaceships; other patterns may be called chaotic. A pattern may stay chaotic for a very long time until it eventually settles to such a combination.</li>
-			</ul>
-		</div>
+			<p>Link to the implementation can be found <a href ="https://github.com/RakshithNM/GameOfLife"  target="_blank">here</a></p>
+			</div>
 
 		<script src="Game-Of-Life/boardLife.js"></script>
 	</body>
