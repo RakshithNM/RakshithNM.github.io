@@ -35,7 +35,7 @@ var gameOfLife = {
 			}
 		}
 		this.boardState = nextBoardState; //assign nextBoardState to boardState before drawing
-		this.drawCellOnGrid(); //call the drawing method;
+		this.drawOnGrid(); //call the drawing method;
 	},
 	noOfAliveNeighbours: function(i,j){ //method to count the no of alive neighbours in the particular generation
 		var k,l; // variables to traverse through the neighbours of a cell
@@ -95,7 +95,7 @@ var gameOfLife = {
 		}
 		return this;
 	},
-	drawCellOnGrid: function(){ //method to draw cell on grid based  on boardState
+	drawOnGrid: function(){ //method to draw cell on grid based  on boardState
 		for (var i = 0; i < this.rows; i++) { //move through each row
 
 			for (var j = 0; j < this.cols; j++ ) { //move through each column
@@ -141,3 +141,13 @@ gameOfLife.rowHolder.addEventListener('click',function(){
 	gameOfLife.init();
 },false);
 gameOfLife.init();
+
+var startButt = document.getElementById('startButt');
+if(startButt){
+	startButt.addEventListener('click', function(){
+	gameOfLife.init();
+},false);
+}
+
+
+
