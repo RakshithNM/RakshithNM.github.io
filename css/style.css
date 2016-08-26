@@ -3,8 +3,15 @@ body{
 }
 @keyframes pulse {
   0% {
-    background-color: #E3F2FD;
+    background-color: #ECEFF1;
 }
+  25%{
+  	background-color: #E8F5E9;
+  }
+  50% {
+  	background-color: #E3F2FD
+  }
+
   100% {
     background-color: #ECEFF1;
 
