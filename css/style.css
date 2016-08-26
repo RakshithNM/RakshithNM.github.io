@@ -5,15 +5,15 @@ body{
   0% {
     background-color: #ECEFF1;
     }
-  25%{
+  50%{
   	background-color: #E3F2FD;
     }
-  50% {
+  /*50% {
   	background-color: #E8F5E9;
     }
   75%{
   	background-color: #E3F2FD;
-    }
+    }*/
   100% {
     background-color: #ECEFF1;
 	}
