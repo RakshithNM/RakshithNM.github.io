@@ -1,6 +1,15 @@
-/*body{
-	background-color: #F8F8FF;
-}*/
+body{
+	animation: pulse 5s infinite;
+}
+@keyframes pulse {
+  0% {
+    background-color: #E3F2FD;
+}
+  100% {
+    background-color: #ECEFF1;
+
+  }
+}
 .navbar-default .navbar-brand{
 	font-family: 'Poiret One';
 	font-size: 30px;
