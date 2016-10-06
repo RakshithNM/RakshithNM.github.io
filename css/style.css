@@ -1,24 +1,20 @@
 body{
 	animation: pulse 10s infinite;
 }
-@keyframes pulse {
-  0% {
-    background-color: #ECEFF1;
-    }
-  50%{
-  	background-color: #F0FFFF;
+/*@keyframes pulse {*/
+  /*0% {*/
+    /*background-color: #ECEFF1;*/
+    /*}*/
+  /*50%{*/
+  	/*background-color: #F0FFFF;*/
+    /*}*/
+  /*75%{*/
   	/*background-color: #E3F2FD;*/
-    }
-  /*50% {
-  	background-color: #E8F5E9;
-    }
-  75%{
-  	background-color: #E3F2FD;
-    }*/
-  100% {
-    background-color: #ECEFF1;
-	}
-}
+    /*}*/
+  /*100% {*/
+    /*background-color: #ECEFF1;*/
+	/*}*/
+/*}*/
 .navbar-default .navbar-brand{
 	font-family: 'Poiret One';
 	font-size: 30px;
