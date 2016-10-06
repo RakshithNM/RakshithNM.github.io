@@ -91,6 +91,9 @@ nav{
 #my-name{
 	font-family:'Poiret One';
 	font-size: 35px;
+	background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	font-weight: bolder;
 	padding-top: 20px;
 	padding-bottom: 20px;
