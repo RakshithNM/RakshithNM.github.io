@@ -131,6 +131,7 @@ a.hover a .active {
 }
 .breadcrumb {
 	padding: 0px;
+	background-color: #feffff;
 }
 
 @media screen and (min-width: 200px) and (max-width: 320px) { 
