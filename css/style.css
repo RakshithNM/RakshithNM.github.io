@@ -1,10 +1,10 @@
 body, html {
-	background-color: #F5F5F5;
+	background-color: #feffff;
 	position: relative;
 }
 #click-icon {
-  width: 300px;
-  height: 300px;
+  width: 150px;
+  height: 150px;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -84,14 +84,13 @@ h1 {
 }
 #project-heading {
 	color : #424242;
-	opacity: 0.6;
   	font-family: 'Open Sans', sans-serif;
 }
 h2 {
 	font-size: 40px;
 }
 #project-description {
-	color : #CFD8DC;
+	color : #222222;
 	padding-bottom: 10px;
 	line-height: 30px;
 	font-size: 22px;
