@@ -161,7 +161,7 @@ a.hover a .active {
 
 @media screen and (min-width: 321px) and (max-width: 360px) { 
 	#click-icons-projectsPage {
-		top: 91%;
+		top: 85%;
   		left: 78%;
   		transform: translate(0%, 0%);
 	}
