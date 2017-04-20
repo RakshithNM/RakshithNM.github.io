@@ -155,7 +155,14 @@ a.hover a .active {
   color : #424242;
   opacity: 0.6;
   font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
   margin-top: 10%;
+}
+.post-list {
+	font-size: 22px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 10px;
+	color : #222222;
 }
 
 @media screen and (min-width: 200px) and (max-width: 320px) { 
