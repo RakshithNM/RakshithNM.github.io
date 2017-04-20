@@ -21,7 +21,7 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   animation: 
-    nudge 3s linear infinite alternate;
+    nudge3 5s linear infinite alternate;
 }
 #click-icons-projectsPage{
   width: 50px;
@@ -69,6 +69,15 @@ body, html {
   
   50% {
     transform: translate(0%, 15%);
+  }
+}
+@keyframes nudge3 {
+  0%, 100% {
+    transform: translate(0%, 0%);
+  }
+  
+  50% {
+    transform: translate(30%, 0%);
   }
 }
 h1 {
