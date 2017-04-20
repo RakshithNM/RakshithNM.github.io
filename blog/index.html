@@ -2,12 +2,12 @@
 layout: default
 title: bellarenotes
 ---
-	<div class= "container-fluid" >
+	<div class="container-fluid" >
 		<h1 class = "blog-title">{{ page.title }}</h1>
 	</div>
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <li class="post-list"<span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	    <li style = "margin: 10px; color: #222222; font-size: 22px; font-family: 'Open Sans', sans-serif;" ><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
