@@ -158,7 +158,7 @@ a.hover a .active {
   font-size: 50px;
   margin-top: 10%;
 }
-.post-list {
+#main-blog-layout > .post-list {
 	font-size: 22px;
 	font-family: 'Open Sans', sans-serif;
 	margin: 10px;
