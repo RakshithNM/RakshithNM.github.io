@@ -19,7 +19,7 @@ The inner element (div) is positioned 50% from top top: 50%; positioned 50% from
 
 All the above seem to fullfill our requirrement of placing the smaller div exactly in the center of the larger one, both the methods is the best way to do it. With the new Flexbox, there is an easy straight foward method to do it.
 
-Trick3: Flexbox
+Trick 3: Flexbox
 ---------
 This trick sets the display property of the larger div to be flex which allows us to use the other properties that flexbox provides. Then use the align-items: center property to vertically align it. The property justify-content: center align the child div within this div to be horizontally centered.
 Check the implementation [here](http://codepen.io/RakshithNM/pen/PmzwOP)
