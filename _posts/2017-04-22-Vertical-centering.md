@@ -5,6 +5,7 @@ date: 2017-04-22
 ---
 
 The post will explain methods in which a div of smaller width and height can be vertically and horizontally centered within a div of larger width and height. This might have been the most googled topic by web developers as there was no straight forward [non-hack] solution that served the purpose.
+
 Trick 1 : Format larger div as a table cell.
 ---------
 This trick is a CSS2 trick, the idea is to format the outer div as a table cell which allows us to vertically center the content because the contents of a table cell can be vertically aligned.
