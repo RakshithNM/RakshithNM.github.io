@@ -94,15 +94,15 @@ h1 {
 #pageOne-mainName {
   color : #424242;
   opacity: 0.6;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Inconsolata', sans-serif;
 }
 #pageOne-subName {
   color : #424242;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Inconsolata', sans-serif;
 }
 #project-heading {
 	color : #424242;
-  	font-family: 'Open Sans', sans-serif;
+  	font-family: 'Inconsolata', sans-serif;
 }
 h2 {
 	font-size: 40px;
@@ -112,7 +112,7 @@ h2 {
 	padding-bottom: 10px;
 	line-height: 30px;
 	font-size: 22px;
-  	font-family: 'Open Sans', sans-serif;
+  	font-family: 'Inconsolata', sans-serif;
 }
 a {
 	text-decoration: none!important;
@@ -125,7 +125,7 @@ a.hover a .active {
 }
 #link-button {
 	color: #424242;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Inconsolata', sans-serif;
 	font-size: 16px;
 }
 #projectPage-lists{
@@ -139,12 +139,12 @@ a.hover a .active {
 }
 #contact-details li {
 	color: #424242;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Inconsolata', sans-serif;
 	font-size: 22px;
 }
 #resume-section li {
 	color: #424242;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Inconsolata', sans-serif;
 	font-size: 22px;
 }
 .breadcrumb {
