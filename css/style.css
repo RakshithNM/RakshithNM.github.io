@@ -114,15 +114,7 @@ h2 {
 	font-size: 22px;
   	font-family: 'Inconsolata', sans-serif;
 }
-a {
-	text-decoration: none!important;
-	color: #424242;
-	opacity: 0.4;
-	font-weight: 200;
-}
-a.hover a .active {
-	color: #000000;
-}
+
 #link-button {
 	color: #424242;
 	font-family: 'Inconsolata', sans-serif;
@@ -285,36 +277,12 @@ a.hover a .active {
   		left: 75%;
   		transform: translate(-50%, -50%);
 	}
-	h1 {
-		font-size: 80px;
-		line-height: 1.0;
-		padding-left: 10px;
-		margin-bottom: 0;
-	}
-	#project-heading {
-		font-size: 44px;
-	}
-	#project-description {
-		font-size: 22px;
-	}
 }
 @media screen and (min-width: 1920px) { 
 	#click-icon {
 		top: 63%;
   		left: 50%;
   		transform: translate(-50%, -50%);
-	}
-	h1 {
-		font-size: 80px;
-		line-height: 1.0;
-		padding-left: 10px;
-		margin-bottom: 0;
-	}
-	#project-heading {
-		font-size: 44px;
-	}
-	#project-description {
-		font-size: 22px;
 	}
 }
 
@@ -450,4 +418,15 @@ a.hover a .active {
   animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+}
+
+.rb-main-div {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.rb-link-group {
+  grid-template-columns: 1fr 1fr 1fr;
 }
