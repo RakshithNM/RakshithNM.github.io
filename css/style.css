@@ -1,6 +1,8 @@
 body, html {
-	background-color: #feffff;
-	position: relative;
+  --dark-theme-bg: #000000;
+  --dark-theme-text-color: #ffffff;
+	background-color: var(--dark-theme-bg);
+  color: var(--dark-theme-text-color);
 }
 
 .rb-main-div {
