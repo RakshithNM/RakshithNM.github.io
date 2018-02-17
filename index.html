@@ -11,32 +11,30 @@
     <meta name="description" content="personal website" >
     <meta name="format-detection" content="telephone=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
     <link rel="shortcut icon" href="images/website-logo.png">
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 
     <title>Rakshith Bellare</title>
     <style>
+        :root {
+          --dark-theme-bg: #000000;
+          --dark-theme-text-color: #ffffff;
+          --dark-theme-anchor-color: #ffff00;
+        }
+
         body, html {
           --dark-theme-bg: #000000;
           --dark-theme-text-color: #ffffff;
           background-color: var(--dark-theme-bg);
           color: var(--dark-theme-text-color);
         }
- 
+
         .rb-main-div {
           display: grid;
           align-items: center;
           justify-content: center;
-          height: 100vh;
         }
-
-        .rb-link-group {
-          grid-template-columns: 1fr 1fr 1fr;
-        }     
     </style>
 
     <script>
@@ -52,17 +50,17 @@
   </head>
   <body>
     <div class="container-fluid rb-main-div">
-      <h6 class="rb-title">Rakshith Bellare</h6>
+      <h4 class="rb-title">Rakshith Bellare</h4>
       <div class="rb-link-group">
         <a href="https://twitter.com/fluffystub" target="_blank" rel="noopener">twitter</a>
         <a href="https://github.com/RakshithNM" target="_blank" rel="noopener">github</a>
         <a href="https://codepen.io/RakshithNM/" target="_blank" rel="noopener">codepen</a>
       </div>
-      <p>Just moved my site to be on https, because<span><a href="https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https" target="_blank" rel="noopener"> i read this</a></span><p>
+      <p>Just moved my site to be on https, because <span><a href="https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https" target="_blank" rel="noopener">i read this</a></span><p>
       <p>Only 5 lines of css because it looks good like that!</p>
       <p>More tomorrow!</p>
     </div>
-    
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

@@ -1,17 +1,11 @@
 body, html {
-  --dark-theme-bg: #000000;
-  --dark-theme-text-color: #ffffff;
-	background-color: var(--dark-theme-bg);
-  color: var(--dark-theme-text-color);
-}
-
-.rb-main-div {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+  font-family: 'Inconsolata', san-serif;
 }
 
 .rb-link-group {
   grid-template-columns: 1fr 1fr 1fr;
-}
+}     
+
+a {
+  color: var(--dark-theme-anchor-color);
+} 
